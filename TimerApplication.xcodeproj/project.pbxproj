@@ -12,6 +12,7 @@
 		04DE5D442327C12400662D48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5D422327C12400662D48 /* Main.storyboard */; };
 		04DE5D462327C12600662D48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5D452327C12600662D48 /* Assets.xcassets */; };
 		04DE5D492327C12600662D48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DE5D472327C12600662D48 /* LaunchScreen.storyboard */; };
+		04DE5D512327CD7500662D48 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE5D502327CD7500662D48 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		04DE5D452327C12600662D48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DE5D482327C12600662D48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DE5D4A2327C12600662D48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DE5D502327CD7500662D48 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				04DE5D402327C12400662D48 /* ViewController.swift */,
 				04DE5D422327C12400662D48 /* Main.storyboard */,
 				04DE5D452327C12600662D48 /* Assets.xcassets */,
+				04DE5D502327CD7500662D48 /* SettingViewController.swift */,
 				04DE5D472327C12600662D48 /* LaunchScreen.storyboard */,
 				04DE5D4A2327C12600662D48 /* Info.plist */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				04DE5D412327C12400662D48 /* ViewController.swift in Sources */,
 				04DE5D3F2327C12400662D48 /* AppDelegate.swift in Sources */,
+				04DE5D512327CD7500662D48 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +293,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cameraApp.TimerApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimerApplicationOriginal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cameraApp.TimerApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimerApplicationOriginal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
