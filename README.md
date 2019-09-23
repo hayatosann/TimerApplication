@@ -1,10 +1,12 @@
 # TimerApplication
 
+# 概要
+10,30,60,120,180秒のタイマー設定をプルダウンで選択できて、なおかつメインの画面ではスタート、ストップが行えるように実装。
+
 # 挙動
 [![Image from Gyazo](https://i.gyazo.com/c83fa50b19ae8d460d42eb7bf80fbd58.gif)](https://gyazo.com/c83fa50b19ae8d460d42eb7bf80fbd58)
 [![Image from Gyazo](https://i.gyazo.com/504c6f2828351c354910a3498548e2dd.gif)](https://gyazo.com/504c6f2828351c354910a3498548e2dd)
 
-10,30,60,120,180秒のタイマー設定をプルダウンで選択できて、なおかつメインの画面ではスタート、ストップが行えるように実装。
 
 # 課題
 
